@@ -1,0 +1,4 @@
+// Scrpit that inserts a Document in the school Collection
+db.school.deleteMany(
+	{ name:"Holberton school" }
+)
